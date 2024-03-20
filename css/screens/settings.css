@@ -1,0 +1,49 @@
+.profile{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    color:black;
+ }
+ .user-component__avatar--m {
+    border: 0.8px solid black;
+ }
+ .user-component-img{
+    position: relative;
+
+ }
+.fa-pencil{
+    border: 0.6px solid white;
+    border-radius: 50px;
+    background-color:white;
+    padding: 6px;
+    position: absolute;
+    left:48px;
+    top:40px;
+    box-shadow: 2px 2px 1px;
+}
+.settings-component{
+border-top: 1px solid black;
+padding:30px;
+}
+.settings-component__ul{
+    display: flex;
+    flex-direction: column;
+}
+.settings-component__li{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.settings-li__column{
+    position: relative;
+}
+.settings-li__column span{
+    margin-right: 20px;
+    text-align: center;
+}
+.badge__new{
+    position: absolute;
+    left:76px;
+    bottom:-2px;
+    font-size:12px;
+}

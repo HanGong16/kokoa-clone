@@ -1,0 +1,52 @@
+#friends-display-link{
+    display: block;
+    text-align: center;
+    background-color:#fafafa;
+    padding:15px 0px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top:-15px;
+    
+}
+#friends-display-link i{
+    color: rgba(0, 0, 0,0.2);
+}
+#friends-display-link span{
+margin:0px 5px 2px 0px;
+}
+.friends-screen,.shopping-user,.shopping-list{
+    padding:0px var(--horizontal-space);
+}
+.friends-screen__channel-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0,0.5);
+}
+.friends-screen__channel{
+    margin-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0,0.2);
+    padding-top: 15px;
+}
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw ;
+    top:0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 122px ;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+
+}
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

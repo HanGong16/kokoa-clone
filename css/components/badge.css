@@ -1,0 +1,29 @@
+.badge, .badge__new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color:tomato;
+    color:white;
+}
+.badge__new{
+    width: 20px;
+    height: 20px;
+    
+}
+.badge__dot{
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 20px;
+}
+.badge__mark{
+     width: 27px;
+    height: 27px;
+    border-radius: 25px;
+    background-color: gray;
+    color:whitesmoke;
+    font-size: 12px;
+}
